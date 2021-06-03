@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+	letter-spacing: 10px;
+	small {
+		color: green !important;
+	}
+}
+
+/* toggle switch */
+/* @apply: right-0 border-green-400; */
+.toggle-checkbox:checked {
+	right: 0;
+	/* border-color: #68d391; */
+	border-color: rgba(31, 41, 55, 1);
+}
+/* @apply: bg-green-400; */
+.toggle-checkbox:checked + .toggle-label {
+	/* background-color: #68d391; */
+	background-color: rgba(31, 41, 55, 1);
+}
+
+.feature-box {
+	@apply h-14 pt-4 rounded-md bg-gray-900 text-white;
+}
