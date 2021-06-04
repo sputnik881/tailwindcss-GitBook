@@ -14,25 +14,37 @@
 
 	<body class="">
 		<div class="nav-hero">
-			<div class="flex flex-row items-center justify-center py-2 border-t-4 border-pink-500 gap-28">
+			<nav class="flex flex-row items-center justify-center py-2 border-t-4 border-pink-500 gap-28">
 				<a href="#" class="pt-3 text-2xl font-extrabold text-white mr-96">
 					# GitBook
 					<img src="" alt="">
 				</a>
-				<div class="flex flex-row items-center gap-10 pt-2 text-white">
-					<a href="#">Explore</a>
-					<a href="#">Docs</a>
-					<a href="#">About</a>
-					<a href="#">Pricing</a>
-					<a href="#">Contact Us</a>
-					<a href="#"
-						class="flex flex-row justify-center w-40 p-3 font-bold text-white bg-blue-500 rounded-md">Dashboard</a>
-				</div>
-			</div>
+				<ul class="flex flex-row items-center gap-10 pt-2 text-white">
+					<li>
+						<a href="#">Explore</a>
+					</li>
+					<li>
+						<a href="#">Docs</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Pricing</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+					<li>
+						<a href="#"
+							class="flex flex-row justify-center w-40 p-3 font-bold text-white bg-blue-500 rounded-md">Dashboard</a>
+					</li>
+				</ul>
+			</nav>
 			<!-- Section-hero -->
 			<div class="flex flex-row items-center justify-center pt-[150px] pb-20 section-hero">
 				<div class="w-5/12 text-center">
-					<h1 class="pt-2 pb-3 text-6xl font-black tracking-normal text-blue-500 text-color-gradnient">
+					<h1 class="pt-2 pb-3 text-6xl font-black tracking-normal text-blue-500 gradient">
 						Where software teams break knowledge silos.
 					</h1>
 					<p class="mx-24 mt-5 text-xl text-blue-100">
@@ -51,9 +63,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="flex flex-row items-center justify-center h-40 nav-hero">
-			<div class="flex flex-row items-center justify-centerrounded-md h-28">
+			<!-- Callout -->
+			<div class="flex flex-row items-center justify-center rounded-md mb-[-3.5em] h-28">
 				<div
 					class="py-5 text-left text-white bg-gray-900 border-4 border-purple-600 rounded-md px-28 rounded-m">
 					<div class="text-xl font-bold">Explore GitBook</div>
@@ -61,8 +72,10 @@
 				</div>
 			</div>
 		</div>
+		<div class="h-1 bg-red-500"></div>
+		<!-- Section -->
 		<div class="home-page-content">
-			<div class="flex flex-row items-center justify-center pt-24 pb-10">
+			<div class="flex flex-row items-center justify-center pt-32 pb-10">
 				<div class="w-2/5 text-center">
 					<div class="text-5xl font-black tracking-normal text-white">A powerful, simple editing<br>
 						experience.
@@ -102,31 +115,31 @@
 				<div class="flex gap-24 ml-60">
 					<div class="w-2/5 pt-32 text-white h-2/6">
 						<h2 class="pr-24 text-4xl font-black text-left">Share beautiful docs without the hassle.
-							</h1>
-							<p class="pt-4 text-lg text-left">
-								Your docs are already designed, so you can publish them anywhere in a matter of
-								seconds. Working on GitHub? Sync your markdown files and transform them in beautiful
-								docs
-								with a click.
-							</p>
-							<div class="grid grid-cols-2 gap-4 pt-8 place-content-center">
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Custom Domains
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Visitor Auth
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Advanced Branding
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									GitHub Sync
-								</div>
+						</h2>
+						<p class="pt-4 text-lg text-left">
+							Your docs are already designed, so you can publish them anywhere in a matter of
+							seconds. Working on GitHub? Sync your markdown files and transform them in beautiful
+							docs
+							with a click.
+						</p>
+						<div class="grid grid-cols-2 gap-4 pt-8 place-content-center">
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Custom Domains
 							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Visitor Auth
+							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Advanced Branding
+							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								GitHub Sync
+							</div>
+						</div>
 					</div>
 					<div class="w-8/12 bg-blue-500 rounded-md py-72"></div>
 				</div>
@@ -135,31 +148,31 @@
 				<div class="flex gap-24 ml-60">
 					<div class="w-2/5 pt-32 text-white h-2/6">
 						<h2 class="pr-24 text-4xl font-black text-left">Connect your team across space and time.
-							</h1>
-							<p class="pt-4 text-lg text-left">
-								Your docs are already designed, so you can publish them anywhere in a matter of
-								seconds. Working on GitHub? Sync your markdown files and transform them in beautiful
-								docs
-								with a click.
-							</p>
-							<div class="grid grid-cols-2 gap-4 pt-8 place-content-center">
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Git style branching
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Search for anything
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Async Collaboration
-								</div>
-								<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
-									<span class="pr-3 font-light text-blue-400"># </span>
-									Version Control
-								</div>
+						</h2>
+						<p class="pt-4 text-lg text-left">
+							Your docs are already designed, so you can publish them anywhere in a matter of
+							seconds. Working on GitHub? Sync your markdown files and transform them in beautiful
+							docs
+							with a click.
+						</p>
+						<div class="grid grid-cols-2 gap-4 pt-8 place-content-center">
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Git style branching
 							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Search for anything
+							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Async Collaboration
+							</div>
+							<div class="pl-6 font-bold text-left bg-gray-300 feature-box">
+								<span class="pr-3 font-light text-blue-400"># </span>
+								Version Control
+							</div>
+						</div>
 					</div>
 					<div class="w-8/12 bg-pink-500 rounded-md py-72"></div>
 				</div>
@@ -236,9 +249,9 @@
 			<div class="pt-16 text-center">
 				<div class="px-12 pt-12 bg-blue-400 rounded-t-xl mx-60 h-11/12">
 					<div class="py-12 bg-gray-900 rounded-xl h-11/12">
-						<h1 class="text-5xl font-black tracking-normal text-white px-52">
+						<h2 class="text-5xl font-black tracking-normal text-white px-52">
 							Amazing documentation starts on GitBook.
-						</h1>
+						</h2>
 						<p class="pt-8 pb-12 text-xl font-light text-white px-72">
 							Inspired by how developers organize their work, we're building the future of documentation
 							for
