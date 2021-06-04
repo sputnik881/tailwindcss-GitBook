@@ -652,12 +652,6 @@ video {
 .mr-52 {
 	margin-right: 13rem;
 }
-.mt-0\.5 {
-	margin-top: 0.125rem;
-}
-.mt-0 {
-	margin-top: 0px;
-}
 .flex {
 	display: flex;
 }
@@ -685,26 +679,17 @@ video {
 .h-56 {
 	height: 14rem;
 }
-.h-12 {
-	height: 3rem;
-}
-.h-72 {
-	height: 18rem;
-}
-.h-7 {
-	height: 1.75rem;
-}
 .h-14 {
 	height: 3.5rem;
 }
-.h-16 {
-	height: 4rem;
+.h-12 {
+	height: 3rem;
 }
 .h-10 {
 	height: 2.5rem;
 }
-.h-8 {
-	height: 2rem;
+.h-72 {
+	height: 18rem;
 }
 .w-40 {
 	width: 10rem;
@@ -724,6 +709,9 @@ video {
 .w-8\/12 {
 	width: 66.666667%;
 }
+.w-full {
+	width: 100%;
+}
 .w-52 {
 	width: 13rem;
 }
@@ -732,9 +720,6 @@ video {
 }
 .w-1\/2 {
 	width: 50%;
-}
-.w-full {
-	width: 100%;
 }
 .transform {
 	--tw-translate-x: 0;
@@ -1157,12 +1142,6 @@ h1.gradient {
 }
 
 .bg-image-stack {
-	background-image: "url('/img/hero-pattern.svg')";
-}
-
-@media (min-width: 640px) {
-
-	.sm\:w-12 {
-		width: 3rem;
-	}
+	/* background-image: url('../images/logo-unity.svg'); */
+	/* background-image: url('/styles/img/.svg'); */
 }
