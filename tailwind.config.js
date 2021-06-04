@@ -3,6 +3,7 @@ module.exports = {
 	// 	removeDeprecatedGapUtilities: true,
 	// 	purgeLayersByDefault: true,
 	// },
+	mode: 'jit',
 	purge: ['./public/**/*.html'],
 	darkMode: 'class',
 	theme: {

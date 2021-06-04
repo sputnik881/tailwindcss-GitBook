@@ -1,8 +1,8 @@
 {
 	"scripts": {
-		"serve": "cross-env NODE_ENV=development concurrently \"postcss public/styles/index.pcss -o public/styles/index.css --watch\"  \"live-server ./public\"",
-		"development": "cross-env NODE_ENV=development postcss public/styles/index.pcss -o public/styles/index.css",
-		"production": "cross-env NODE_ENV=production postcss public/styles/index.pcss -o public/styles/index.css",
+		"serve": "cross-env TAILWIND_MODE=watch NODE_ENV=development concurrently \"postcss public/styles/index.pcss -o public/styles/index.css --watch\"  \"live-server --no-browser ./public\"",
+		"development": "cross-env TAILWIND_MODE=build NODE_ENV=development postcss public/styles/index.pcss -o public/styles/index.css",
+		"production": "cross-env TAILWIND_MODE=build NODE_ENV=production postcss public/styles/index.pcss -o public/styles/index.css",
 		"start": "npm run serve"
 	},
 	"devDependencies": {
@@ -18,11 +18,7 @@
 		"postcss": "^8.1.10",
 		"postcss-cli": "^8.3.0",
 		"postcss-nested": "^5.0.1",
-		"precss": "^4.0.0",
 		"prettier": "^2.1.2",
-		"stylelint": "^13.7.2",
-		"stylelint-config-idiomatic-order": "^8.1.0",
-		"stylelint-order": "^4.1.0",
 		"tailwindcss": "^2.0.1"
 	}
 }

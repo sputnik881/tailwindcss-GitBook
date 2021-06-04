@@ -1,0 +1,103 @@
+/* Proxima Nova
+
+  ProximaNova-Light
+  ProximaNova-LightIt
+  ProximaNova-Thin
+  ProximaNova-ThinIt
+  ProximaNova-Regular
+  ProximaNova-RegularIt
+  ProximaNova-Semibold
+  ProximaNova-SemiboldIt
+  ProximaNova-Bold
+  ProximaNova-BoldIt
+  ProximaNova-Extrabld
+  ProximaNova-ExtrabldIt
+  ProximaNova-Black
+  ProximaNova-BlackIt
+
+============================================================================= */
+
+
+@font-face {
+    font-family:"ProximaNova-BlackIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Black-It.woff2") format("woff2"),url("ProximaNova-Black-It.woff") format("woff"),url("ProximaNova-Black-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Black";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Black.woff2") format("woff2"),url("ProximaNova-Black.woff") format("woff"),url("ProximaNova-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-BoldIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Bold-It.woff2") format("woff2"),url("ProximaNova-Bold-It.woff") format("woff"),url("ProximaNova-Bold-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Bold";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Bold.woff2") format("woff2"),url("ProximaNova-Bold.woff") format("woff"),url("ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-LightIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Light-It.woff2") format("woff2"),url("ProximaNova-Light-It.woff") format("woff"),url("ProximaNova-Light-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Light";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Light.woff2") format("woff2"),url("ProximaNova-Light.woff") format("woff"),url("ProximaNova-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-RegularIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Reg-It.woff2") format("woff2"),url("ProximaNova-Reg-It.woff") format("woff"),url("ProximaNova-Reg-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Regular";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Reg.woff2") format("woff2"),url("ProximaNova-Reg.woff") format("woff"),url("ProximaNova-Reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-SemiboldIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Sbold-It.woff2") format("woff2"),url("ProximaNova-Sbold-It.woff") format("woff"),url("ProximaNova-Sbold-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Semibold";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Sbold.woff2") format("woff2"),url("ProximaNova-Sbold.woff") format("woff"),url("ProximaNova-Sbold.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-ThinIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Thin-It.woff2") format("woff2"),url("ProximaNova-Thin-It.woff") format("woff"),url("ProximaNova-Thin-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Thin";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Thin.woff2") format("woff2"),url("ProximaNova-Thin.woff") format("woff"),url("ProximaNova-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-ExtrabldIt";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Xbold-It.woff2") format("woff2"),url("ProximaNova-Xbold-It.woff") format("woff"),url("ProximaNova-Xbold-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"ProximaNova-Extrabld";
+    font-style:normal;font-weight:400;
+    src:url("ProximaNova-Xbold.woff2") format("woff2"),url("ProximaNova-Xbold.woff") format("woff"),url("ProximaNova-Xbold.otf") format("opentype");
+}

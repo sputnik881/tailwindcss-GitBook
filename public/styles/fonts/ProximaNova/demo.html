@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Font Face Demo</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8">
+    <style type="text/css" media="screen">
+      body {
+        /* http://files.christophzillgens.com/webkit-font-smoothing.html */
+        -webkit-font-smoothing: antialiased;
+        /*-webkit-font-smoothing: subpixel-antialiased;*/
+      }
+
+      #container {
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      /*
+		When using web fonts with multiple weights and styles be sure to fix "faux" bold/italic
+		http://coding.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration/
+		use "combined" method for IE 78 compatible stuff
+		Example:
+		body { font-family: 'TypefaceRegular', sans-serif; font-weight: 400; font-style: normal; }
+		h1,h2,h3,h4,h5,h6 { font-family: 'TypefaceBold', sans-serif; font-weight: 700; font-style: normal; }
+		strong, b { font-family: 'TypefaceBold', sans-serif; font-weight: 700; font-style: normal; }
+		em, i { font-family: 'TypefaceItalic', sans-serif; font-weight: 400; font-style: italic; }
+		strong em { font-family: 'TypefaceBoldItalic', sans-serif; font-weight: 700; font-style: italic; }*/
+      /* if changing the base font elsewhere, all changes need to be made again as well */
+      /* for example: */
+      /*
+		p.light { font-family: 'TypefaceLight', sans-serif; font-weight: 200; font-style: normal; }
+		p.light strong { font-family: 'TypefaceRegular', sans-serif; font-weight: 400; font-style: normal; }
+		p.light em { font-family: 'TypefaceLightItalic', sans-serif; font-weight: 200; font-style: italic; }
+		*/
+      h1.fontface {
+        font: 60px/68px 'ProximaNova-Black';
+        letter-spacing: 0;
+      }
+
+      .style1 {
+        font-family: 'ProximaNova-Regular';
+      }
+
+      .style2 {
+        font-family: 'ProximaNova-Light';
+      }
+
+      .style3 {
+        font-family: 'ProximaNova-Thin';
+      }
+
+      .style4 {
+        font-family: 'ProximaNova-Semibold';
+      }
+
+      .style5 {
+        font-family: 'ProximaNova-Bold';
+      }
+
+      .style6 {
+        font-family: 'ProximaNova-Extrabld';
+      }
+
+      .style7 {
+        font-family: 'ProximaNova-Black';
+      }
+
+      .style8 {
+        font-family: '';
+      }
+
+      .style9 {
+        font-family: '';
+      }
+
+      .style10 {
+        font-family: '';
+      }
+
+      /* ProximaNova-BlackIt
+ProximaNova-Black
+ProximaNova-BoldIt
+ProximaNova-Bold
+ProximaNova-LightIt
+ProximaNova-Light
+ProximaNova-RegularIt
+ProximaNova-Regular
+ProximaNova-SemiboldIt
+ProximaNova-Semibold
+ProximaNova-ThinIt
+ProximaNova-Thin
+ProximaNova-ExtrabldIt
+ProximaNova-Extrabld */
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 class="fontface">Proxima Nova</h1>
+      <p class="style1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="style10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </body>
+
+</html>
